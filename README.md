@@ -25,4 +25,8 @@ df.to_csv('quotes2.csv', index=False)
 
 3. Run all cells in **preparations.ipynb** to generate auxiliary files.
 4. Run **server.py**.
+```bash
+pip install flask
+python server.py
+```
 5. Now you can use search engine on localhost (http://localhost:1111/ by default).
